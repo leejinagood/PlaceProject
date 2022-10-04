@@ -18,7 +18,7 @@
             <h2>꿀팁</h2>
           </div>
           <ul class="nav">
-            <li><a href="register.html">HOME</a></li>
+            <li><a href="register.html">내정보</a></li>
             <li><a href="#">ABOUT</a></li>
             <li><a href="#">SERVICE</a></li>
             <li><a href="#">CONTACT..</a></li>
