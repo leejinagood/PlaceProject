@@ -1,0 +1,70 @@
+html{
+	height:100%;
+}
+
+body > section{
+    text-align: center;
+    width: 80%;
+    
+    margin: 7% 10% 10% 10%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #ffffcc;
+}
+
+section > form > .contact-item {
+    position: relative;
+    text-align: center;
+    margin: 8px;
+    width: 100%;
+    height: 29px;
+    font-size: 24px;
+    color: #575159;
+}
+
+section > form >.contact-box {
+    width: 50%;
+    height: 55px;
+    border-radius: 5px;
+    border: solid 2px #b6b5b7;
+    background-color: #fffefe;
+}
+section > form >select{
+    text-align: center;
+    width: 51%;
+    height: 55px;
+    font-size: large;
+}
+
+section > form >.contact-reason {
+    position: relative;
+    text-align: center;
+    margin: 8px;
+    width: 100%;
+    height: 29px;
+    font-size: 24px;
+    color: #575159;
+}
+
+section > form >.contact-reason-box {
+	width: 51%;
+	height: 248px;
+	border-radius: 5px;
+	border: solid 2px #b6b5b7;
+	background-color: #fffefe;
+}
+
+section > form >::placeholder {
+    height: 24px;
+    font-size: large;
+    color: #b8b8b8;
+}
+section > form >.button {
+    margin-top: 10px;
+    width: 30%;
+    height: 74px;
+    border-radius: 5px;
+    font-size: xx-large;
+    text-align: center;
+    color: #1b1b1b;
+}
