@@ -56,8 +56,8 @@
     </select>
         <table>
             <tr>
-                <th>글 번호</th>
                 <th>제목</th>
+                <th>내용</th>
                 <th>작성자</th>
                 <th>조회수</th>
                 <th>작성일자</th>
@@ -67,8 +67,8 @@
             
 		   while(rs.next()){ 
 			   
-					   String swritenum = rs.getString("writenum");
-					   String swritetitle = rs.getString("writetitle"); //파란색은  DB에 저장된 필드명  
+					   String swritetitle = rs.getString("writetitle"); //파란색은  DB에 저장된 필드명
+					   String swritecontent = rs.getString("writecontent");
 					   String susername = rs.getString("username");
 					   String sviewcount = rs.getString("viewcount");
 					   String sRegDate = rs.getString("RegDate");
@@ -76,8 +76,8 @@
 					   
 		%> 
             <tr>
-                <td><%=swritenum %></td>
                 <td><%=swritetitle %></td>
+                <td><%=swritecontent %></td>
                 <td><%=susername %></td>
                 <td><%=sviewcount %></td>
                 <td><%=sRegDate %></td>
