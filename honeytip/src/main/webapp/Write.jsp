@@ -25,8 +25,7 @@
 		            <option value="쇼핑">쇼핑</option>
 		        </select>
 		        <div class="contact-reason">꿀팁    내용</div>
-		        <textarea style="resize: none;"  maxlength="300" class="contact-reason-box"  name="mmaintext" placeholder="꿀팁을 작성해주세요.">
-		</textarea>
+		        <textarea style="resize: none;"  maxlength="300" class="contact-reason-box"  name="mmaintext" placeholder="꿀팁을 작성해주세요."></textarea>
 		        <br><button class="button" type="submit" onclick="CheckForm()">작성완료</button>
 	        </form>
 	    </section>
